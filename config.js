@@ -1,4 +1,4 @@
-const { Sequelize } = require("sequelize");
+⁸const { Sequelize } = require("sequelize");
 const fs = require("fs");
 if (fs.existsSync("config.env"))
   require("dotenv").config({ path: "./config.env" });
@@ -26,7 +26,7 @@ module.exports = {
   //_________________________________________________________________________________________________________________________________
   BRANCH: "main",
   //_________________________________________________________________________________________________________________________________
-  SESSION_ID: process.env.SESSION_ID || "", //Enter Your Session Id Here
+  SESSION_ID: process.env.SESSION_ID || "Phoenix~mzuW2XtN", //Enter Your Session Id Here
   //_________________________________________________________________________________________________________________________________
   SUDO: process.env.SUDO || "919074692450",
   //_________________________________________________________________________________________________________________________________
